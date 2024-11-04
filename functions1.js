@@ -3,7 +3,7 @@ function printName() {
 }
 
 function printAge(birthYear) {
-  console.log("2024 - birthYear");
+  console.log(2024 - birthYear);
 }
 
 function PrintNameAndAge(birthYear, name) {
@@ -12,13 +12,13 @@ function PrintNameAndAge(birthYear, name) {
 
 function printHello(name, language) {
   if (language === "en") {
-    console.log("Hello {$ name}");
+    console.log(`Hello ${name}`);
   } else if (language === "es") {
-    console.log("Hola {$ name}");
+    console.log(`Hola ${name}`);
   } else if (language === "fr") {
-    console.log("Bonjour {$ name}");
+    console.log(`Bonjour ${name}`);
   } else if (language === "tr") {
-    console.log("Merhaba ${name}");
+    console.log(`Merhaba ${name}`);
   }
 }
 
